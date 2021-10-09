@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+#main-container{
+    margin-left: 1rem;
+}
