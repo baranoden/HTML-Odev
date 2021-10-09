@@ -1,10 +1,32 @@
-body{
-    margin: 0;
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 li{
     list-style: none;
     display: inline;
 }
 #main-container{
-    margin-left: 1rem;
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.anime-list{
+    width: 80rem;
+    margin:0 auto;
+    
+}
+.anime-list li{
+    padding: 1rem;
+}
+.film-list{
+    width: 80rem;
+    margin: 0 auto;
+}
+.film-list li{
+    padding: 1rem;
+}
+.anime h3,.film h3{
+    text-align: center;
 }
